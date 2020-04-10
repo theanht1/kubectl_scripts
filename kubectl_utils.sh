@@ -16,8 +16,7 @@ fi
 
 exec_help() {
   echo "./kubectl_utils.sh [command] [namespace] [pod]
-  command: help, list_pods, logs
-  "
+  command: help, get_pods, logs"
 }
 
 get_pods_command() {
@@ -39,7 +38,7 @@ case $command_name in
   help)
     exec_help
     ;;
-  list_pods)
+  get_pods)
     exec_list_pods
     ;;
   logs)
