@@ -5,3 +5,6 @@
   command: help, get_pods, logs
 ```
 
+### TODOs:
+- Add more commands: exec, etc
+- Add tests
